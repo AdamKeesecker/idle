@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'traceur-compiler' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'traceur-compiler', null ]
+6 verbose cache add name=undefined spec="traceur-compiler" args=["traceur-compiler",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'traceur-compiler',
+7 verbose parsed url   path: 'traceur-compiler',
+7 verbose parsed url   href: 'traceur-compiler' }
+8 silly lockFile 4d641df1-traceur-compiler traceur-compiler
+9 verbose lock traceur-compiler /Users/osx/.npm/4d641df1-traceur-compiler.lock
+10 silly lockFile 4d641df1-traceur-compiler traceur-compiler
+11 silly lockFile 4d641df1-traceur-compiler traceur-compiler
+12 verbose addNamed [ 'traceur-compiler', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 55a44c1d-traceur-compiler traceur-compiler@
+15 verbose lock traceur-compiler@ /Users/osx/.npm/55a44c1d-traceur-compiler.lock
+16 silly addNameRange { name: 'traceur-compiler', range: '*', hasData: false }
+17 verbose url raw traceur-compiler
+18 verbose url resolving [ 'https://registry.npmjs.org/', './traceur-compiler' ]
+19 verbose url resolved https://registry.npmjs.org/traceur-compiler
+20 info trying registry request attempt 1 at 10:31:50
+21 http GET https://registry.npmjs.org/traceur-compiler
+22 http 404 https://registry.npmjs.org/traceur-compiler
+23 silly registry.get cb [ 404,
+23 silly registry.get   { date: 'Thu, 04 Dec 2014 16:31:51 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=0',
+23 silly registry.get     'content-length': '52',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     'x-served-by': 'cache-iad2129-IAD',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1417710711.506754,VS0,VE77',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly lockFile 55a44c1d-traceur-compiler traceur-compiler@
+25 silly lockFile 55a44c1d-traceur-compiler traceur-compiler@
+26 error 404 'traceur-compiler' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404 It was specified as a dependency of 'server-template'
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Darwin 13.4.0
+28 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "install" "traceur-compiler"
+29 error cwd /Users/osx/Documents/thingys/idle
+30 error node -v v0.10.26
+31 error npm -v 1.4.3
+32 error code E404
+33 verbose exit [ 1, true ]
